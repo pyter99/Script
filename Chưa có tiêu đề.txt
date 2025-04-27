@@ -74,11 +74,11 @@ loadstring(game:HttpGet("https://raw.githubusercontent.com/newredz/BloxFruits/re
 })
 
 Tabs.Main1:AddButton({
-    Title="ronix",
+    Title="matsune",
     Description="",
     Callback=function()
-    loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/513ccdb3ae8a61d4d7698fc337e5256d.lua"))()
-  end
+    getgenv().Team = "Pirates"
+loadstring(game:HttpGet("https://raw.githubusercontent.com/RealMatsune/Rolls-Rocye/refs/heads/main/Loading.lua"))()
 })
 
 Tabs.Main1:AddButton({
@@ -90,11 +90,10 @@ Tabs.Main1:AddButton({
     })
     
     Tabs.Main1:AddButton({
-    Title="quantum",
+    Title="min hub",
     Description="",
     Callback=function()
-    loadstring(game:HttpGet("https://raw.githubusercontent.com/FlazhGG/QTONYX/refs/heads/main/NextGeneration.lua"))()
-    end
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/LuaCrack/Min/refs/heads/main/MinA1Eng"))()
     })
     
     Tabs.Main1:AddButton({
