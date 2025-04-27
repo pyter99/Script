@@ -156,3 +156,12 @@ Tabs.Main2:AddButton({
 loadstring(game:HttpGet("https://raw.githubusercontent.com/tbao143/thaibao/refs/heads/main/TbaoHubDeadRails"))()
 end
 })
+
+Tabs.Main1:AddButton({
+    Title="trẩu",
+    Description="",
+    Callback=function()
+
+loadstring(game:HttpGet("https://raw.githubusercontent.com/LuaCrack/TrauHub/refs/heads/main/TrauXt"))()
+end
+})
