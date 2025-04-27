@@ -24,7 +24,7 @@ local Fluent = loadstring(game:HttpGet("https://github.com/dawid-scripts/Fluent/
 repeat wait() until game:IsLoaded()
 local Window = Fluent:CreateWindow({
     Title = "script_hoàng liên quân premium",
-    SubTitle = "tổng hợp các game",
+    SubTitle = "tổng hợp script game",
     TabWidth = 157,
     Size = UDim2.fromOffset(500, 350),
     Acrylic = true,
@@ -56,7 +56,7 @@ local Tabs = {
     Title = "name",
     Description = "hoang_lq911",
     Callback = function()
-        setclipboard("hoàng liên quân script")
+        setclipboard("@hoang_lq911")
     end
 })
     
@@ -163,5 +163,14 @@ Tabs.Main1:AddButton({
     Callback=function()
 
 loadstring(game:HttpGet("https://raw.githubusercontent.com/LuaCrack/TrauHub/refs/heads/main/TrauXt"))()
+end
+})
+
+Tabs.Main1:AddButton({
+    Title="AICHEMY HUB",
+    Description="",
+    Callback=function()
+
+loadstring(game:HttpGet("https://scripts.alchemyhub.xyz"))()
 end
 })
