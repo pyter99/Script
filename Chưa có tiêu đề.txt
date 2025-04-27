@@ -23,43 +23,40 @@ end)
 local Fluent = loadstring(game:HttpGet("https://github.com/dawid-scripts/Fluent/releases/latest/download/main.lua"))()
 repeat wait() until game:IsLoaded()
 local Window = Fluent:CreateWindow({
-    Title = "script_TH",
-    SubTitle = "Blox Fruit",
+    Title = "script_hoàng liên quân",
+    SubTitle = "tổng hợp BloxFruits",
     TabWidth = 157,
     Size = UDim2.fromOffset(450, 300),
     Acrylic = true,
-    Theme = "dark",
+    Theme = "Dark",
     MinimizeKey = Enum.KeyCode.End
 })
 local Tabs = {
-        Main0=Window:AddTab({ Title="ThĂ´ng Tin" }),
-        Main1=Window:AddTab({ Title="Script Farm" }),
-        Main2=Window:AddTab({ Title="Farm Fruit" }),
-        Main3=Window:AddTab({ Title="Farm Chest" }),
-        Main4=Window:AddTab({ Title="Script Hop" }),
-       Main5=Window:AddTab({ Title="lin tinh" }),
+        Main0=Window:AddTab({ Title="thích để vậy" }),
+        Main1=Window:AddTab({ Title="Script Farm BloxFruits" }),
+   
 }
     Tabs.Main0:AddButton({
     Title = "Discord",
-    Description = "TBoyRoblox Community",
+    Description = "ko có",
     Callback = function()
-        setclipboard("https://discord.gg/tboyroblox-community-1253927333920899153")
+        setclipboard("")
     end
 })
 
     Tabs.Main0:AddButton({
-    Title = "Youtuber",
+    Title = "name roblox",
     Description = "S_s",
     Callback = function()
-        setclipboard("https://www.youtube.com/@TBoyRoblox08")
+        setclipboard("")
     end
 })
 
     Tabs.Main0:AddButton({
-    Title = "Youtuber",
-    Description = "dyte dz",
+    Title = "name roblox",
+    Description = "S_s",
     Callback = function()
-        setclipboard("https://www.youtube.com/@TBoyGamer08")
+        setclipboard("")
     end
 })
     
@@ -77,9 +74,36 @@ loadstring(game:HttpGet("https://raw.githubusercontent.com/newredz/BloxFruits/re
 })
 
 Tabs.Main1:AddButton({
-    Title="GreenZ Hub",
+    Title="ronix",
     Description="",
     Callback=function()
-	  loadstring(game:HttpGet("https://raw.githubusercontent.com/LuaAnarchist/GreenZ-Hub/refs/heads/main/KaitunDoughKing.lua"))()
+    loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/513ccdb3ae8a61d4d7698fc337e5256d.lua"))()
   end
+})
+
+Tabs.Main1:AddButton({
+    Title="blue X",
+    Description="",
+    Callback=function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/Dev-BlueX/BlueX-Hub/refs/heads/main/Main.lua"))()
+    end
+    })
+    
+    Tabs.Main1:AddButton({
+    Title="quantum",
+    Description="",
+    Callback=function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/FlazhGG/QTONYX/refs/heads/main/NextGeneration.lua"))()
+    end
+    })
+    
+    Tabs.Main1:AddButton({
+    Title="xero",
+    Description="",
+    Callback=function()
+    getgenv().Team = "Marines"
+getgenv().Hide_Menu = false
+getgenv().Auto_Execute = false
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Xero2409/XeroHub/refs/heads/main/main.lua"))()
+end
 })
