@@ -23,7 +23,7 @@ end)
 local Fluent = loadstring(game:HttpGet("https://github.com/dawid-scripts/Fluent/releases/latest/download/main.lua"))()
 repeat wait() until game:IsLoaded()
 local Window = Fluent:CreateWindow({
-    Title = "script_hoàng liên quân",
+    Title = "script_hoàng liên quân premium",
     SubTitle = "tổng hợp các game",
     TabWidth = 157,
     Size = UDim2.fromOffset(450, 300),
@@ -109,10 +109,27 @@ loadstring(game:HttpGet("https://raw.githubusercontent.com/Xero2409/XeroHub/refs
 end
 })
 
+Tabs.Main1:AddButton({
+    Title="kimp banana",
+    Description="",
+    Callback=function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/kimprobloxdz/Banana-Free/refs/heads/main/Protected_5609200582002947.lua.txt"))()
+end
+})
+
+
 Tabs.Main2:AddButton({
     Title="null fire",
     Description="",
     Callback=function()
 loadstring(game:HttpGet("https://raw.githubusercontent.com/InfernusScripts/Null-Fire/main/Loader"))("DingaScripts")
+end
+})
+
+Tabs.Main2:AddButton({
+    Title="fram bond",
+    Description="",
+    Callback=function()
+loadstring(game:HttpGet('https://raw.githubusercontent.com/DonjoScripts/Public-Scripts/refs/heads/Slap-Battles/TheFastestBondStealer.lua'))()
 end
 })
