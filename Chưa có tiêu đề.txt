@@ -34,7 +34,7 @@ local Window = Fluent:CreateWindow({
 local Tabs = {
         Main0=Window:AddTab({ Title="thông tin" }),
         Main1=Window:AddTab({ Title="Script Farm BloxFruits" }),
-   
+        Main2=Window:AddTab({ Title="script dead rail" }),
 }
     Tabs.Main0:AddButton({
     Title = "Discord",
@@ -106,5 +106,13 @@ Tabs.Main1:AddButton({
 getgenv().Hide_Menu = false
 getgenv().Auto_Execute = false
 loadstring(game:HttpGet("https://raw.githubusercontent.com/Xero2409/XeroHub/refs/heads/main/main.lua"))()
+end
+})
+
+Tabs.Main2:AddButton({
+    Title="null fire",
+    Description="",
+    Callback=function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/InfernusScripts/Null-Fire/main/Loader"))("DingaScripts")
 end
 })
