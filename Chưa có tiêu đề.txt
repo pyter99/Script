@@ -24,7 +24,7 @@ local Fluent = loadstring(game:HttpGet("https://github.com/dawid-scripts/Fluent/
 repeat wait() until game:IsLoaded()
 local Window = Fluent:CreateWindow({
     Title = "script_hoàng liên quân",
-    SubTitle = "tổng hợp BloxFruits",
+    SubTitle = "tổng hợp các game",
     TabWidth = 157,
     Size = UDim2.fromOffset(450, 300),
     Acrylic = true,
