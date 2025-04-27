@@ -26,7 +26,7 @@ local Window = Fluent:CreateWindow({
     Title = "script_hoàng liên quân premium",
     SubTitle = "tổng hợp các game",
     TabWidth = 157,
-    Size = UDim2.fromOffset(450, 300),
+    Size = UDim2.fromOffset(500, 350),
     Acrylic = true,
     Theme = "Dark",
     MinimizeKey = Enum.KeyCode.End
@@ -77,7 +77,8 @@ Tabs.Main1:AddButton({
     Title="matsune hub",
     Description="",
     Callback=function()
-    getgenv().Team = "Pirates"
+   
+getgenv().Team = "Pirates"
 loadstring(game:HttpGet("https://raw.githubusercontent.com/RealMatsune/Rolls-Rocye/refs/heads/main/Loading.lua"))()
   end
 })
@@ -102,7 +103,8 @@ Tabs.Main1:AddButton({
     Title="xero",
     Description="",
     Callback=function()
-    getgenv().Team = "Marines"
+   
+getgenv().Team = "Marines"
 getgenv().Hide_Menu = false
 getgenv().Auto_Execute = false
 loadstring(game:HttpGet("https://raw.githubusercontent.com/Xero2409/XeroHub/refs/heads/main/main.lua"))()
@@ -113,6 +115,7 @@ Tabs.Main1:AddButton({
     Title="kimp banana",
     Description="",
     Callback=function()
+
 loadstring(game:HttpGet("https://raw.githubusercontent.com/kimprobloxdz/Banana-Free/refs/heads/main/Protected_5609200582002947.lua.txt"))()
 end
 })
@@ -122,6 +125,7 @@ Tabs.Main2:AddButton({
     Title="null fire",
     Description="",
     Callback=function()
+
 loadstring(game:HttpGet("https://raw.githubusercontent.com/InfernusScripts/Null-Fire/main/Loader"))("DingaScripts")
 end
 })
@@ -130,6 +134,7 @@ Tabs.Main2:AddButton({
     Title="fram bond",
     Description="",
     Callback=function()
+
 loadstring(game:HttpGet('https://raw.githubusercontent.com/DonjoScripts/Public-Scripts/refs/heads/Slap-Battles/TheFastestBondStealer.lua'))()
 end
 })
@@ -138,6 +143,16 @@ Tabs.Main1:AddButton({
     Title="kimp Maru hub",
     Description="",
     Callback=function()
+
 getgenv().Team = "Marines" loadstring(game:HttpGet("https://raw.githubusercontent.com/LuaCrack/KimP/refs/heads/main/MaruHub"))()
+end
+})
+
+Tabs.Main2:AddButton({
+    Title="Tbao hub",
+    Description="",
+    Callback=function()
+
+loadstring(game:HttpGet("https://raw.githubusercontent.com/tbao143/thaibao/refs/heads/main/TbaoHubDeadRails"))()
 end
 })
