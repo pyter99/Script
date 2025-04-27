@@ -48,7 +48,7 @@ local Tabs = {
     Title = "name",
     Description = "hoàng liên quân",
     Callback = function()
-        setclipboard("")
+        setclipboard("hoàng liên quân script")
     end
 })
 
@@ -56,7 +56,7 @@ local Tabs = {
     Title = "tiktok",
     Description = "hoang_lq911",
     Callback = function()
-        setclipboard("")
+        setclipboard("https://www.tiktok.com/@hoang_lq911?_t=ZS-8vsac5snVih&_r=1")
     end
 })
     
