@@ -185,8 +185,8 @@ end
 })
 
 Tabs.Main2:AddButton({
-    Title="",
-    Description="zis hop sever",
+    Title="zis hop sv",
+    Description="có thể lỗi",
     Callback=function()
 loadstring(game:HttpGet("https://raw.githubusercontent.com/LuaCrack/Zis/refs/heads/main/ZisRobloxHop"))()
 end
@@ -194,7 +194,7 @@ end
 
 Tabs.Main2:AddButton({
     Title="teddy",
-    Description="",
+    Description="có thể lỗi",
     Callback=function()
 loadstring(game:HttpGet("https://raw.githubusercontent.com/Teddyseetink/Haidepzai/refs/heads/main/TEDDY-FREEMIUM"))()
 end
