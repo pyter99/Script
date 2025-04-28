@@ -188,7 +188,6 @@ Tabs.Main2:AddButton({
     Title="",
     Description="zis hop sever",
     Callback=function()
-
 loadstring(game:HttpGet("https://raw.githubusercontent.com/LuaCrack/Zis/refs/heads/main/ZisRobloxHop"))()
 end
 })
