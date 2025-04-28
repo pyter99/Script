@@ -63,7 +63,7 @@ local Tabs = {
     
     Tabs.Main1:AddButton({
     Title="Redz Hub",
-    Description="",
+    Description="mượt",
     Callback=function()
 	  local Settings = {
   JoinTeam = "Pirates"; -- Pirates/Marines
@@ -76,7 +76,7 @@ loadstring(game:HttpGet("https://raw.githubusercontent.com/newredz/BloxFruits/re
 
 Tabs.Main1:AddButton({
     Title="matsune hub",
-    Description="",
+    Description="mượt",
     Callback=function()
    
 getgenv().Team = "Pirates"
@@ -86,7 +86,7 @@ loadstring(game:HttpGet("https://raw.githubusercontent.com/RealMatsune/Rolls-Roc
 
 Tabs.Main1:AddButton({
     Title="blue X",
-    Description="",
+    Description="khá lag",
     Callback=function()
     loadstring(game:HttpGet("https://raw.githubusercontent.com/Dev-BlueX/BlueX-Hub/refs/heads/main/Main.lua"))()
     end
@@ -94,7 +94,7 @@ Tabs.Main1:AddButton({
     
     Tabs.Main1:AddButton({
     Title="min gaming",
-    Description="",
+    Description="mượt",
     Callback=function()
     loadstring(game:HttpGet("https://raw.githubusercontent.com/LuaCrack/Min/refs/heads/main/MinA1Eng"))()
     end
@@ -102,7 +102,7 @@ Tabs.Main1:AddButton({
     
     Tabs.Main1:AddButton({
     Title="xero",
-    Description="",
+    Description="có thể lỗi",
     Callback=function()
    
 getgenv().Team = "Marines"
@@ -114,7 +114,7 @@ end
 
 Tabs.Main1:AddButton({
     Title="kimp banana",
-    Description="",
+    Description="khá lag",
     Callback=function()
 
 loadstring(game:HttpGet("https://raw.githubusercontent.com/kimprobloxdz/Banana-Free/refs/heads/main/Protected_5609200582002947.lua.txt"))()
@@ -124,7 +124,7 @@ end
 
 Tabs.Main3:AddButton({
     Title="null fire",
-    Description="",
+    Description="có thể lỗi",
     Callback=function()
 
 loadstring(game:HttpGet("https://raw.githubusercontent.com/InfernusScripts/Null-Fire/main/Loader"))("DingaScripts")
@@ -133,7 +133,7 @@ end
 
 Tabs.Main3:AddButton({
     Title="fram bond",
-    Description="",
+    Description="có thể lỗi",
     Callback=function()
 
 loadstring(game:HttpGet('https://raw.githubusercontent.com/DonjoScripts/Public-Scripts/refs/heads/Slap-Battles/TheFastestBondStealer.lua'))()
@@ -142,7 +142,7 @@ end
 
 Tabs.Main1:AddButton({
     Title="kimp Maru hub",
-    Description="",
+    Description="khá lag",
     Callback=function()
 
 getgenv().Team = "Marines" loadstring(game:HttpGet("https://raw.githubusercontent.com/LuaCrack/KimP/refs/heads/main/MaruHub"))()
@@ -151,7 +151,7 @@ end
 
 Tabs.Main3:AddButton({
     Title="Tbao hub",
-    Description="",
+    Description="mượt",
     Callback=function()
 
 loadstring(game:HttpGet("https://raw.githubusercontent.com/tbao143/thaibao/refs/heads/main/TbaoHubDeadRails"))()
@@ -160,7 +160,7 @@ end
 
 Tabs.Main1:AddButton({
     Title="trẩu",
-    Description="",
+    Description="mượt",
     Callback=function()
 
 loadstring(game:HttpGet("https://raw.githubusercontent.com/LuaCrack/TrauHub/refs/heads/main/TrauXt"))()
@@ -169,7 +169,7 @@ end
 
 Tabs.Main1:AddButton({
     Title="AICHEMY HUB",
-    Description="",
+    Description="có thể lag",
     Callback=function()
 
 loadstring(game:HttpGet("https://scripts.alchemyhub.xyz"))()
@@ -177,7 +177,7 @@ end
 })
  Tabs.Main1:AddButton({
     Title="Astral hub",
-    Description="",
+    Description="lag",
     Callback=function()
 
 loadstring(game:HttpGet("https://raw.githubusercontent.com/Overgustx2/Main/refs/heads/main/BloxFruits_25.html"))()
@@ -202,7 +202,7 @@ end
 
 Tabs.Main1:AddButton({
     Title="lion hub",
-    Description="",
+    Description="khá lag",
     Callback=function()
 
 repeat wait() until game:IsLoaded() and game.Players.LocalPlayer
@@ -213,7 +213,7 @@ end
 
 Tabs.Main1:AddButton({
     Title="rubu hub",
-    Description="",
+    Description="khá mượt",
     Callback=function()
 
     getgenv().Team = "Marines" -- Marines, Pirates
