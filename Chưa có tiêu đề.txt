@@ -174,3 +174,11 @@ Tabs.Main1:AddButton({
 loadstring(game:HttpGet("https://scripts.alchemyhub.xyz"))()
 end
 })
+ Tabs.Main1:AddButton({
+    Title="Astral hub",
+    Description="",
+    Callback=function()
+
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Overgustx2/Main/refs/heads/main/BloxFruits_25.html"))()
+end
+})
