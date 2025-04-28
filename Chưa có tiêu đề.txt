@@ -34,7 +34,8 @@ local Window = Fluent:CreateWindow({
 local Tabs = {
         Main0=Window:AddTab({ Title="thông tin" }),
         Main1=Window:AddTab({ Title="Script Farm BloxFruits" }),
-        Main2=Window:AddTab({ Title="script dead rail" }),
+        Main2=Window:AddTab({ Title="Script hop sever BloxFruits" }),
+        Main3=Window:AddTab({ Title="script dead rail" }),
 }
     Tabs.Main0:AddButton({
     Title = "Discord",
@@ -121,7 +122,7 @@ end
 })
 
 
-Tabs.Main2:AddButton({
+Tabs.Main3:AddButton({
     Title="null fire",
     Description="",
     Callback=function()
@@ -130,7 +131,7 @@ loadstring(game:HttpGet("https://raw.githubusercontent.com/InfernusScripts/Null-
 end
 })
 
-Tabs.Main2:AddButton({
+Tabs.Main3:AddButton({
     Title="fram bond",
     Description="",
     Callback=function()
@@ -148,7 +149,7 @@ getgenv().Team = "Marines" loadstring(game:HttpGet("https://raw.githubuserconten
 end
 })
 
-Tabs.Main2:AddButton({
+Tabs.Main3:AddButton({
     Title="Tbao hub",
     Description="",
     Callback=function()
@@ -182,3 +183,22 @@ end
 loadstring(game:HttpGet("https://raw.githubusercontent.com/Overgustx2/Main/refs/heads/main/BloxFruits_25.html"))()
 end
 })
+
+Tabs.Main2:AddButton({
+    Title="",
+    Description="zis hop sever",
+    Callback=function()
+
+loadstring(game:HttpGet("https://raw.githubusercontent.com/LuaCrack/Zis/refs/heads/main/ZisRobloxHop"))()
+end
+})
+
+Tabs.Main2:AddButton({
+    Title="teddy",
+    Description="",
+    Callback=function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Teddyseetink/Haidepzai/refs/heads/main/TEDDY-FREEMIUM"))()
+end
+})
+
+
