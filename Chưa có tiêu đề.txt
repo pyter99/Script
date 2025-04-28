@@ -26,16 +26,16 @@ local Window = Fluent:CreateWindow({
     Title = "script_hoàng liên quân premium",
     SubTitle = "tổng hợp script game",
     TabWidth = 157,
-    Size = UDim2.fromOffset(450, 300),
+    Size = UDim2.fromOffset(470, 320),
     Acrylic = true,
     Theme = "Dark",
     MinimizeKey = Enum.KeyCode.End
 })
 local Tabs = {
         Main0=Window:AddTab({ Title="thông tin" }),
-        Main1=Window:AddTab({ Title="Script Farm BloxFruits" }),
-        Main2=Window:AddTab({ Title="Script hop sever BloxFruits" }),
-        Main3=Window:AddTab({ Title="script dead rail" }),
+        Main1=Window:AddTab({ Title="Farm BloxFruits" }),
+        Main2=Window:AddTab({ Title="hop sever BloxFruits" }),
+        Main3=Window:AddTab({ Title="dead rail" }),
 }
     Tabs.Main0:AddButton({
     Title = "Discord",
