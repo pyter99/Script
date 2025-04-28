@@ -200,4 +200,12 @@ loadstring(game:HttpGet("https://raw.githubusercontent.com/Teddyseetink/Haidepza
 end
 })
 
+Tabs.Main1:AddButton({
+    Title="rubu hub",
+    Description="",
+    Callback=function()
 
+    getgenv().Team = "Marines" -- Marines, Pirates
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Bubu2k/Rubutv/refs/heads/main/RubuHub"))()
+end
+})
