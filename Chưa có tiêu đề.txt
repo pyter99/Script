@@ -37,8 +37,7 @@ local Tabs = {
         Main2=Window:AddTab({ Title="hop sever BloxFruits" }),
         Main3=Window:AddTab({ Title="Script đặc biệt" }),
         Main4=Window:AddTab({ Title="dead rail" }),
-}
-    
+}   
 Tabs.Main0:AddButton({
     Title = "Discord",
     Description = "ko có",
