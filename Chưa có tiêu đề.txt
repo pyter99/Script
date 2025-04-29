@@ -35,10 +35,9 @@ local Tabs = {
         Main0=Window:AddTab({ Title="thông tin" }),
         Main1=Window:AddTab({ Title="Farm BloxFruits" }),
         Main2=Window:AddTab({ Title="hop sever BloxFruits" }),
-        Main3=Window:AddTab({ Title="Script đặc biệt" }),
-        Main4=Window:AddTab({ Title="dead rail" }),
-}   
-Tabs.Main0:AddButton({
+        Main3=Window:AddTab({ Title="dead rail" }),
+}
+    Tabs.Main0:AddButton({
     Title = "Discord",
     Description = "ko có",
     Callback = function()
@@ -122,7 +121,8 @@ loadstring(game:HttpGet("https://raw.githubusercontent.com/kimprobloxdz/Banana-F
 end
 })
 
-Tabs.Main4:AddButton({
+
+Tabs.Main3:AddButton({
     Title="null fire",
     Description="có thể lỗi",
     Callback=function()
@@ -131,7 +131,7 @@ loadstring(game:HttpGet("https://raw.githubusercontent.com/InfernusScripts/Null-
 end
 })
 
-Tabs.Main4:AddButton({
+Tabs.Main3:AddButton({
     Title="fram bond",
     Description="có thể lỗi",
     Callback=function()
@@ -149,7 +149,7 @@ getgenv().Team = "Marines" loadstring(game:HttpGet("https://raw.githubuserconten
 end
 })
 
-Tabs.Main4:AddButton({
+Tabs.Main3:AddButton({
     Title="Tbao hub",
     Description="mượt",
     Callback=function()
@@ -220,22 +220,3 @@ Tabs.Main1:AddButton({
 loadstring(game:HttpGet("https://raw.githubusercontent.com/Bubu2k/Rubutv/refs/heads/main/RubuHub"))()
 end
 })
-
-Tabs.Main3:AddButton({
-    Title = "banana hub BloxFruits",
-    Description = "cần get key",
-    Callback = function()
-        setclipboard("repeat wait() until game:IsLoaded() and game.Players.LocalPlayer
-getgenv().Key = "dán key vào đây"
-loadstring(game:HttpGet("https://raw.githubusercontent.com/obiiyeuem/vthangsitink/main/BananaHub.lua"))()")
-    end
-})
-
-Tabs.Main3:AddButton({
-    Title = "link get key banana",
-    Description = "dán key vào script",
-    Callback = function()
-        setclipboard("https://ads.luarmor.net/get_key?for=VHFslhWdrPey")
-    end
-})
-
