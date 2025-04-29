@@ -38,7 +38,8 @@ local Tabs = {
         Main3=Window:AddTab({ Title="Script đặc biệt" }),
         Main4=Window:AddTab({ Title="dead rail" }),
 }
-    Tabs.Main0:AddButton({
+    
+Tabs.Main0:AddButton({
     Title = "Discord",
     Description = "ko có",
     Callback = function()
