@@ -86,7 +86,7 @@ loadstring(game:HttpGet("https://raw.githubusercontent.com/RealMatsune/Rolls-Roc
 
 Tabs.Main1:AddButton({
     Title="blue X",
-    Description="khá lag",
+    Description="lag",
     Callback=function()
     loadstring(game:HttpGet("https://raw.githubusercontent.com/Dev-BlueX/BlueX-Hub/refs/heads/main/Main.lua"))()
     end
@@ -114,7 +114,7 @@ end
 
 Tabs.Main1:AddButton({
     Title="kimp banana",
-    Description="khá lag",
+    Description="lag",
     Callback=function()
 
 loadstring(game:HttpGet("https://raw.githubusercontent.com/kimprobloxdz/Banana-Free/refs/heads/main/Protected_5609200582002947.lua.txt"))()
@@ -142,7 +142,7 @@ end
 
 Tabs.Main1:AddButton({
     Title="kimp Maru hub",
-    Description="khá lag",
+    Description="lag",
     Callback=function()
 
 getgenv().Team = "Marines" loadstring(game:HttpGet("https://raw.githubusercontent.com/LuaCrack/KimP/refs/heads/main/MaruHub"))()
@@ -169,7 +169,7 @@ end
 
 Tabs.Main1:AddButton({
     Title="AICHEMY HUB",
-    Description="có thể lag",
+    Description="lag",
     Callback=function()
 
 loadstring(game:HttpGet("https://scripts.alchemyhub.xyz"))()
@@ -213,7 +213,7 @@ end
 
 Tabs.Main1:AddButton({
     Title="rubu hub",
-    Description="khá mượt",
+    Description="mượt",
     Callback=function()
 
     getgenv().Team = "Marines" -- Marines, Pirates
